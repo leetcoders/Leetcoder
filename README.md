@@ -4,7 +4,7 @@ Copyright (c) 2013 Jack Wang
 
 What is Leetcoder  
 -----
-Leetcoder is a sortable table guidance for all questions all http://leetcode.com/onlinejudge  
+Leetcoder is a sortable table guidance for all questions on http://leetcode.com/onlinejudge  
   
 Please feel free to edit data file listed under Leetcoder/js/data.js when the new questions come out.  
   
