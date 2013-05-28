@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <link href="css/index.css" rel="stylesheet">
+ </head>
+ <body>
+ <table id="leetcode_questions_table">
+    <tr><td>Id</td><td>Question</td><td>Difficulty</td><td>Frequency</td><td>Data_Structures</td><td>Algorithms</td></tr>
+ </table>
+ <script id="leetcode_questions_template" type="text/x-handlebars-template">
+    {{#each questions}}
+        <tr><td>{{Id}}</td><td>{{Question}}</td><td>{{Difficulty}}</td><td>{{Frequency}}</td><td>{{Data_Structures}}</td><td>{{Algorithms}}</td></tr>
+    {{/each}}
+ </script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ <script src="js/data.js"></script>
+ <script src="js/index.js"></script>
+ <script src="js/handlebars.js"></script>
+ </body>
+</html>
