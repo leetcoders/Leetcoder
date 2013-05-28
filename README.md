@@ -10,7 +10,7 @@ Please feel free to edit data file listed under Leetcoder/js/data.js when the ne
   
 Why Leetcoder  
 -----  
-Many of my friends are preparing the coding interview by working out leetcode interview exercises. Although I've only attempted only few problems there, I feel it's a good resource and would be even better if there are some sort of guidance through finishing all the 100+ coding exercises. While all the current guidance is great (my data inside Leetcoder/js/data.js is merely a copy of peking2's current version), there is nowhere the leetcode users can modify these data, and thus improving the current guidance. Leetcoder provide a place where all leetcode users can contribute and improve current guidance, and I strongly encourage every user to do so.  
+Many of my friends are preparing the coding interview by working out leetcode interview exercises. Although I've only attempted only few problems there, I feel it's a good resource and would be even better if there are some sort of guidance through finishing all the 100+ coding exercises. While all the current guidance is great (my data inside Leetcoder/js/data.js is merely a copy of peking2's current version), there is nowhere the leetcode users can modify these data, and thus improving the current guidance. Leetcoder provides a place where all leetcode users can contribute and improve current guidance, and I strongly encourage every user to do so.  
   
 How to Contribute
 -----  
