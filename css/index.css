@@ -1,7 +1,11 @@
-#leetcode_questions_table tr:nth-child(even) {
+#leetcode_questions_table tbody tr:nth-child(odd) {
 	background: #CCC;
 }
 
-#leetcode_questions_table tr:nth-child(odd) {
+#leetcode_questions_table tbody tr:nth-child(even) {
 	background: #FFF;
+}
+
+#leetcode_questions_table thead th {
+	text-align: left;
 }

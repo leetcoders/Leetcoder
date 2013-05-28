@@ -5,16 +5,19 @@
  </head>
  <body>
  <table id="leetcode_questions_table">
-    <tr><td>Id</td><td>Question</td><td>Difficulty</td><td>Frequency</td><td>Data_Structures</td><td>Algorithms</td></tr>
+    <thead><tr><th>Id</th><th>Question</th><th>Difficulty</th><th>Frequency</th><th>Data Structures</th><th>Algorithms</th></tr></thead>
  </table>
  <script id="leetcode_questions_template" type="text/x-handlebars-template">
+    <tbody>
     {{#each questions}}
         <tr><td>{{Id}}</td><td>{{Question}}</td><td>{{Difficulty}}</td><td>{{Frequency}}</td><td>{{Data_Structures}}</td><td>{{Algorithms}}</td></tr>
     {{/each}}
+    </tbody>
  </script>
  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
  <script src="js/data.js"></script>
  <script src="js/index.js"></script>
+ <script src="js/jquery.tablesorter.js"></script>
  <script src="js/handlebars.js"></script>
  </body>
 </html>
