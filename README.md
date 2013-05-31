@@ -1,6 +1,6 @@
 Leetcoder
 =========  
-Copyright (c) 2013 Jack Wang  
+Copyright (c) 2013 Zhe Wang 
 
 What is Leetcoder  
 -----

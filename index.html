@@ -4,10 +4,9 @@
  <link href="css/index.css" rel="stylesheet">
  </head>
  <body>
- <table id="leetcode_questions_table">
-    <thead><tr><th>Id</th><th>Question</th><th>Difficulty</th><th>Frequency</th><th>Data Structures</th><th>Algorithms</th></tr></thead>
- </table>
+ <table id="leetcode_questions_table"></table>
  <script id="leetcode_questions_template" type="text/x-handlebars-template">
+    <thead><tr><th>Id</th><th>Question</th><th>Difficulty</th><th>Frequency</th><th>Data Structures</th><th>Algorithms</th></tr></thead>
     <tbody>
     {{#each questions}}
         <tr><td>{{Id}}</td><td>{{Question}}</td><td>{{Difficulty}}</td><td>{{Frequency}}</td><td>{{Data_Structures}}</td><td>{{Algorithms}}</td></tr>
